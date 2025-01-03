@@ -1,18 +1,5 @@
-import localfont from "next/font/local";
-import { Raleway } from "next/font/google";
-import localFont from "next/font/local";
+import { gothamFont, gothamFontLight, ralewayFont } from "@/fonts";
 
-const ralewayFont = Raleway({
-  subsets: ["latin"], // Specify the subsets you need
-  weight: ["400", "700"], // Specify the weights you need
-});
-
-const gothamFont = localFont({
-  src: "/Gotham-Bold.otf",
-});
-const gothamFontLight = localFont({
-  src: "/Gotham-Light.otf",
-});
 
 export default function SignUpLayout({
   children,
