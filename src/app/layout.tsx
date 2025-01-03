@@ -27,7 +27,15 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
-        {children}
+        <div
+          style={{
+            backgroundImage: `url("background new svg.svg")`,
+            backgroundSize: "cover",
+            height: "100vh",
+          }}
+        >
+          {children}
+        </div>
       </body>
     </html>
   );
