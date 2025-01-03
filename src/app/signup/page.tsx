@@ -64,7 +64,7 @@ export default function SignUp() {
 
                       <input className="w-full h-[40px] bg-[#1e1e1e]/25 rounded-lg backdrop-blur-[15 px] py-[6px] px-[12px] text-white mt-2 border border-slate-500" />
                       <div
-                        className={`text-[#b7b7b7] text-xs font-medium leading-3  flex flex-col gap-1 pt-4`}
+                        className={`text-white text-xs font-medium leading-3  flex flex-col gap-1 pt-4`}
                       >
                         <div className="flex justify-start gap-2 items-center">
                           <Image

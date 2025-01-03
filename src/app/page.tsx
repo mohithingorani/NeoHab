@@ -11,7 +11,7 @@ export default function Home() {
     }, 2000);
     return () => {
       clearTimeout(timeOut);
-    };
+    };  
   });
   const router = useRouter();
   return (
